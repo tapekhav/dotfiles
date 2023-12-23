@@ -170,7 +170,7 @@ source <(ng completion script)
 export PROTO_HOME="$HOME/.proto"
 export PATH="$PROTO_HOME/shims:$PROTO_HOME/bin:$PATH"
 
-CODESTATS_API_KEY="SFMyNTY.ZG14NWJ3PT0jI01UWXlPVEU9.XF8IPBmQOgIt5yaZL3XcBUohOeuolQm_nHlqyhV0E9k"
+CODESTATS_API_KEY=""
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
