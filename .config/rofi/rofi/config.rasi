@@ -1,0 +1,91 @@
+configuration{
+    modi: "drun";
+    lines: 5;
+    font: "JetBrainsMono Nerd Font 10";
+    show-icons: true;
+    icon-theme: "Oranchelo";
+    terminal: "kitty";
+    drun-display-format: "{icon} {name}";
+    location: 2;
+    disable-history: false;
+    hide-scrollbar: true;
+}
+
+@theme "catppuccin"
+
+element-text, element-icon , mode-switcher {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+window {
+    y-offset: 22px;
+    height: 300px;
+    width: 1200px;
+    border: 0px;
+    border-color: @border-col;
+    background-color: @bg-col;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [entry];
+    background-color: @bg-col;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: ":";
+}
+
+entry {
+    padding: 0px;
+    margin: 10px 0px 0px 10px;
+    text-color: @fg-col;
+    background-color: @bg-col;
+}
+
+listview {
+    border: 0px 0px 0px;
+    padding: 0px 0px 0px;
+    margin: 5px 0px 0px 20px;
+    columns: 5;
+    background-color: @bg-col;
+}
+
+element {
+    padding: 5px;
+    background-color: @bg-col;
+    text-color: @fg-col  ;
+}
+
+element-icon {
+    size: 14px;
+}
+
+element selected {
+    background-color:  @selected-col ;
+    text-color: @fg-col2  ;
+}
+
+mode-switcher {
+    spacing: 0;
+  }
+
+button {
+    padding: 10px;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    vertical-align: 0.5; 
+    horizontal-align: 0.5;
+}
+
+button selected {
+  background-color: @bg-col;
+  text-color: @blue;
+}
