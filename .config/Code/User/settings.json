@@ -1,0 +1,55 @@
+{
+    "cmake.configureOnOpen": true,
+    "codestats.apikey": "key",
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.autofetch": true,
+    "MATLAB.installPath": "/usr/local/MATLAB/R2023b/",
+    "files.autoSave": "afterDelay",
+    "cmake.options.statusBarVisibility": "visible",
+    "tabnine.experimentalAutoImports": true,
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": false,
+    "C_Cpp.default.compilerPath": "/usr/bin/clang",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.intelliSenseMode": "linux-clang-x64",
+    "C_Cpp.default.includePath": [
+        "/usr/include/c++/12",
+        "/usr/include/x86_64-linux-gnu/c++/12",
+        "/usr/include/c++/12/backward",
+        "/usr/lib/llvm-15/lib/clang/15.0.7/include"
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.formatting": "clangFormat",
+    "cmake.showOptionsMovedNotification": false,
+    "notebook.lineNumbers": "on",
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureSettings": {
+        "CMAKE_EXPORT_COMPILE_COMMANDS": "YES"
+    },
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DCMAKE_CXX_COMPILER=clang++",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    ],
+    "cmake.preferredGenerators": [
+        "Ninja"
+    ],
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path-linux": "/home/vladimir/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+        "vscode-kubernetes.kubectl-path-linux": "/home/vladimir/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+        "vscode-kubernetes.minikube-path-linux": "/home/vladimir/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+    },
+    "clangd.path": "/home/vladimir/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/17.0.3/clangd_17.0.3/bin/clangd",
+    "clangd.arguments": ["--compile-commands-dir=${workspaceFolder}/build"],
+    "clang-tidy.executable": "${workspaceFolder}/.clang-tidy",
+    "launchqtcreator.qtDesignerPath": "${workspaceFolder}/path/to/your/ui/file.ui",
+    "workbench.settings.applyToAllProfiles": [
+        
+    ]
+}

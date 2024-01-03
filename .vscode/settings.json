@@ -1,0 +1,20 @@
+{
+    "cmake.configureSettings": {
+        "CMAKE_CXX_STANDARD": 20,
+        "CMAKE_EXPORT_COMPILE_COMMANDS": true
+    },
+    "files.exclude": {
+        "build": true
+    },
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.h": "cpp"
+    },
+
+    "cmake.sourceDirectory": "${workspaceFolder}/",
+    "cmake.buildDirectory": "${workspaceFolder}/build/",
+    "clangd.path": "/usr/bin/clangd",
+    "clang-tidy.executable": "${workspaceFolder}/.clang-tidy",
+    "clang-format.executable": "${workspaceFolder}/.clang-format",
+    "C/C++ Include Guard.Remove Extension": "true"
+}
